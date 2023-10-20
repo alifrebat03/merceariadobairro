@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+/**FORMATAÇÃO CARRINHO*/
+#itensCarrinho{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #006400;
+}
+
+h1{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/**FORMATAÇÃO PEDIDO*/
+#pedido{
+    width: 60%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    border-top: 1px solid #006400;
+    padding: 30px 0px;
+    margin: 5px 0px;
+
+}
+
+.item .imgItem{
+    width: 15%;
+    height: 80px;
+}
+
+.imgItem img{
+    width: 70px;
+    height: 70px;
+} 
+
+.descricaoValorUnitario{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricaoValorUnitario .descricaoItem{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.quantInput
+{
+    width: 10%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.quantInput input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #006400;
+    font-size: 1.2em;
+    
+}
+
+.vlrResumo{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.btnRemover img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/** FORMATAÇÃO SUBTOTAL  */
+#resumo{
+    width: 40%;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#resumo #resumoVlr{
+    width: 100%;
+    border-top: 1px solid #006400;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+#resumoVlr .linhaSubtotal{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#resumoVlr .vlrResumo{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: bold;
+    background-color: #006400;
+    transition: 1S;
+}
+
+#btnEnviar:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+
+
+

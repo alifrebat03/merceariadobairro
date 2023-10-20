@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCEARIA DO BAIRRO</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="imagens/icones/favicon.ico"/>
+
+    <link rel="stylesheet" href="estilos/estiloslayout2.css"/>
+    <link rel="stylesheet" href="estilos/estilosformulario.css"/>
+</head>
+<body>
+    <div id="geral">
+        <header id="cabecalho">
+            <div id="logo">
+                <a href="index.html"> <img src="imagens/icones/logomercado.png" alt=""></a>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li> <a href="index.html"> HOME </a> </li>
+                    <li> <a href="produtos.html"> PRODUTOS </a> </li>
+                    <li> <a href="sobre.html"> SOBRE </a> </li>
+                    <li> <a href="contato.html"> CONTATO </a> </li>
+                    <li> <a href="cadastro.html"> CADASTRO </a> </li>
+                </ul>
+            </nav>
+            <div id="carrinho">
+                <a href="carrinho.html"> <img src="imagens/icones/carrinho.png" /> </a>
+            </div>
+        </header>
+        <div id="conteudo">
+            <div id="conteudoDiverso">
+                    
+                <h1> CADASTRO </h1>
+                
+                <div id="form">
+                    <form name="form1" id="form1" method="post">
+                        <div class="divInput">
+                            <label for="nome">NOME</label>
+                            <input type="text" name="nome" id="nome" class="input"/>
+                        </div>
+
+                        <div class="divInput">
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="cpf" id="cpf" class="input"/>
+                        </div>
+
+                        <div class="divInput">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" class="input"/>
+                        </div>
+
+                        <div class="divInput">
+                            <label for="telefone">TELEFONE</label>
+                            <input type="text" name="telefone" id="telefone" class="input"/>
+                        </div>
+
+                        <div class="divInput">
+                            <label for="sexo">SEXO</label>
+                            <input type="radio" name="sexo" id="sexo" value="M"/> Masculino
+                            <input type="radio" name="sexo" id="sexo" value="F"/> Feminino
+                        </div>
+
+                        <div class="divInput">
+                            <label for="dataNascimento">DATA NASCIMENTO</label>
+                            <input type="text" name="dataNascimento" id="dataNascimento" class="input" />
+                        </div>
+
+                        <div class="divInput">
+                            <label for="cep">CEP</label>
+                            <input type="text" name="cep" id="cep" class="input" />
+                        </div>
+
+                        <div id="divEnde">
+                            <div class="divInput">
+                                <label for="logradouro">LOGRADOURO</label>
+                                <input type="text" name="logradouro" id="logradouro" class="input inputEnde" />
+                            </div>
+
+                            <div class="divInput">
+                                <label for="numero">NÚMERO</label>
+                                <input type="text" name="numero" id="numero" class="input" />
+                            </div>
+
+                            <div class="divInput">
+                                <label for="complemento">COMPLEMENTO</label>
+                                <input type="text" name="complemento" id="complemento" class="input" />
+                            </div>
+
+                            <div class="divInput">
+                                <label for="cidade">CIDADE</label>
+                                <input type="text" name="cidade" id="cidade" class="input inputEnde" />
+                            </div>
+
+                            <div class="divInput">
+                                <label for="estado">ESTADO</label>
+                                <input type="text" name="estado" id="estado" class="input inputEnde" />
+                            </div>
+                        </div>
+                        
+                        <div class="divInput">
+                            <label for="senha">SENHA</label>
+                            <input type="password" name="senha" id="senha" class="input" />
+                        </div>
+
+                        <div class="divInput">
+                            <input type="checkbox" checked name="promo" id="promo" value="S" />
+                            Deseja receber nossas Promoções e eventos?
+                        </div>
+
+
+                        <div id="divBtn">
+                            <button id="btnEnviar"> CADASTRAR </button>
+                            <button id="btnLimpar"> LIMPAR</button>
+                        </div>
+
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <footer id="rodape">
+            <div id="colunaRodape">
+                <div id="esquerdo">
+                   <h3> Dúvidas, Sugestões e Elogios?</h3>  
+                   <p> fale conosco </p>   
+                   <p> E-mail: atendimento@mercadinhodobairro.com.br</p>
+                   <p> Tel.: 00198891234</p>
+                   <p> Whatsapp: 00198891234</p>
+                </div>
+                <div id="centro">
+                    <h3> Termos e politícas</h3>
+                    <ul>
+                        <li> Termo de Uso do Site </li>
+                        <li> Política e Privacidade </li>
+                        <li> Política de Cookies </li>
+                    </ul>
+                </div>
+                <div id="direito">
+                    <h3> Links </h3>
+                    <ul>
+                        <li> Quem Somos </li>
+                        <li> Parceiros </li>
+                        <li> Minha conta </li>
+                        <li> Promoções </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copy">
+                <p>&copy; 2023 Todos os Direitos reservados para MERCEARIA DO BAIRRO</p>
+                <p> CNPJ.: 00.008.111/1XXXX-00  - Rua Sei la das Quantas, s/n, ARACAJU, SE, 49066-321 tel.: 00198891234</p>
+                <p>ESTÁ PÁGINA FOI DESENVOLVIDA NO CURSO TÉCNICO PARA FINS DE APRENDIZADO</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

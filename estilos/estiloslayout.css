@@ -1,0 +1,246 @@
+/*Formatação layout*/
+#geral{
+    width: 1000px;
+    min-height: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Formatação cabeçalho*/
+#cabecalho{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    color: #006400;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo span{
+    padding: 0px 5px;
+    background-color: red;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#menu{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalho ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px 10px;
+}
+
+nav ul li a:link{
+    font-family: courier new;
+    font-size: 0.8;
+    color: #006400;;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+nav ul li a:visited{
+    font-family: courier new;
+    font-size: 0.8;
+    color: #006400;;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-family: courier new;
+    font-size: 0.8;
+    font-weight: bold;
+    color: #FF0000 ;
+    text-decoration:none;
+
+}
+
+nav ul li a:active{
+    font-family: courier new;
+    font-size: 0.7;
+    font-weight: bold;
+    color: black;
+    text-decoration:none;
+    transition: 0.2s;
+}
+
+#carrinho{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    cursor: pointer;
+}
+
+#carrinho img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*FORMATAÇÃO CONTEÚDO*/
+#conteudo{
+    width:100%;
+    height: 400px;
+    background-image: url("../imagens/imagens_layout/alimento02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#slogan{
+    font-family: Lucida console;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: rgba(0, 100, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    padding-top:40px ;
+}
+
+#slogan2 {
+    font-family: Lucida console;
+    font-size: 2em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(255, 0, 0, 0.4);
+    padding:10px ;
+    border-radius: 5px;
+}
+
+#slogan2  span{
+    background-color: #006400;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    font-family: arial black;
+    border-radius: 5px;
+}
+
+#btnEntrar{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    width: 150px;
+    height: 20px;
+    background-color:rgba(0, 100, 0, 0.8);
+    color: #FFFFFF;
+    padding: 20px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+#btnEntrar:hover{
+    opacity: 0.5;
+    background-color: #ffffff;
+    color:rgb(0, 100, 0);
+    font-weight: bold;
+}
+/*FORMATAÇÃO ÍCONES*/
+#icons{
+    margin: 20px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icon{
+    margin: 20px;
+    width:250px;
+    height: 250px;
+    padding: 5px;
+    border: 5px solid #006400;
+    border-radius: 1000px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 0.5;
+    background-color: rgba(0, 100, 0, 0.1);
+    color:#ffffff;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*FORMATÇÃO RODAPÉ*/
+footer{
+    width: 100%;
+    min-height: 400px;
+}
+
+#colunaRodape{
+    padding-top: 30px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#98FB98 ;
+    color: #006400;
+    line-height: 30px;
+}
+#esquerdo{
+    width: 40%;
+    height: 350px;
+    padding: 20px 30px;
+}
+#centro{
+    width: 30%;
+    height: 100%;
+}
+#direito{
+    width: 30%;
+    height: 100%;
+}
+#copy{
+    font-size: 0.7em;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    color: #006400;
+}
